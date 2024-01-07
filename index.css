@@ -7,8 +7,7 @@ body {
     background-image: url('images.jpg');
     background-attachment: fixed; /* optional, for a fixed background */
     background-size: cover;
-    background-repeat: repeat;
-    background-position: center center;
+    background-repeat: no-repeat;
     height: 100vh;
 }
   #confetti-container {
