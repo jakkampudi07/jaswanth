@@ -4,16 +4,13 @@ body {
     color: #333;
     margin: 0;
     padding: 0;
-   
-    
-    height: 100vh;
-}
-  #confetti-container {
-    position: fixed;
     background-image: url('images.jpeg');
     background-attachment: fixed; /* optional, for a fixed background */
     background-size: cover;
     background-repeat: no-repeat;
+    }
+  #confetti-container {
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
@@ -21,6 +18,13 @@ body {
     pointer-events: none;
   }
   
+  .confetti {
+    width: 10px;
+    height: 10px;
+    background-color: #f00; /* Adjust the confetti color as needed */
+    position: absolute;
+    animation: fall 2s infinite;
+  }
   
   #container {
     width: min(100%, 950px);
