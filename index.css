@@ -4,14 +4,13 @@ body {
     color: #333;
     margin: 0;
     padding: 0;
-    backgroung-image: url('images.jpeg');
+    background-image: url('images.jpg');
+    background-attachment: fixed; /* optional, for a fixed background */
     background-size: cover;
     background-repeat: repeat;
     background-position: center center;
     height: 100vh;
 }
-
-  
   #confetti-container {
     position: fixed;
     top: 0;
