@@ -4,7 +4,7 @@ body {
     color: #333;
     margin: 0;
     padding: 0;
-    background-image: url('images.jpg');
+    background-image: url('images.jpeg');
     background-attachment: fixed; /* optional, for a fixed background */
     background-size: cover;
     background-repeat: no-repeat;
