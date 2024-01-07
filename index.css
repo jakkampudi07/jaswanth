@@ -21,13 +21,6 @@ body {
     pointer-events: none;
   }
   
-  .confetti {
-    width: 10px;
-    height: 10px;
-    background-color: #f00; /* Adjust the confetti color as needed */
-    position: absolute;
-    animation: fall 2s infinite;
-  }
   
   #container {
     width: min(100%, 950px);
