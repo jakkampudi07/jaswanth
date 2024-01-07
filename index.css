@@ -6,6 +6,7 @@ body {
     padding: 0;
     background-image: url(birthday.jpg);
     background-color: rgba(255, 255, 255, 0.8); /* Highlighted background color */
+    background-attachment: fixed; /* optional, for a fixed background */
     background-size: cal(580*360);
     background-repeat: repeat;
     background-position: center center;
